@@ -53,6 +53,7 @@ function navSlide() {
 // Ajout des fleches du caroussel //
 let arrowLeft = document.querySelector("#banner .arrow_left");
 arrowLeft.addEventListener("click", function() {
+	console.log("Fleche gauche");
 	currentSlide--;
 	if(currentSlide<0) {
 		currentSlide=3;
